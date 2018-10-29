@@ -215,10 +215,6 @@ One problem at the moment however, is that after the whole system gets suspended
 Converting VirtualBox VM to HVM
 -------------------------------
 
-Microsoft provides [free 90 day evaluation VirtualBox VMs for browser testing](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/).
-
-About 60 GB of disk space is required for conversion, use external harddrive if needed. Final root.img size is 40 GB.
-
 In Debian AppVM, install qemu-utils and unzip:
 
 ~~~
