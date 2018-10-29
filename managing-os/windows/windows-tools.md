@@ -88,6 +88,7 @@ qvm-prefs -s <vm-name> qrexec_timeout 300
 
 Using Windows AppVMs in seamless mode (Qubes R2 Beta 3 and later)
 -----------------------------------------------------------------
+Note: this is not supported with Windows 10 (and likely not Windows 8/8.1)
 
 Once you start a Windows-based AppVM with Qubes Tools installed, you can easily start individual applications from the VM (note the `-a` switch used here, which will auto-start the VM if it is not running):
 
@@ -122,6 +123,7 @@ You can switch between seamless and "full desktop" mode for Windows HVMs in thei
 
 Using template-based Windows AppVMs (Qubes R2 Beta 3 and later)
 ---------------------------------------------------------------
+Note: this is not supported with Windows 10 (and likely not Windows 8/8.1)
 
 Qubes allows HVM VMs to share a common root filesystem from a select Template VM, just like it is done for Linux AppVMs. This mode is not limited to Windows AppVMs, and can be used for any HVM (e.g. FreeBSD running in a HVM). In order to create a HVM TemplateVM one can use the following command:
 
